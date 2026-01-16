@@ -3,6 +3,6 @@ import userSchema from "../schemas/user.schema.js";
 
 mongoose.pluralize(null);
 
-const userModel = mongoose.model("user", userSchema);
+const userModel = mongoose.model("students", userSchema);
 
 export default userModel;
